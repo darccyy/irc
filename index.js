@@ -6,6 +6,7 @@ const F = require("fortissimo");
 
 var isHost, IP, log, rl, myName;
 
+process.stdin.resume();
 async function main() {
   title(true);
 
